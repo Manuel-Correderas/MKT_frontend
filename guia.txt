@@ -1,2 +1,2 @@
 .\.venv\Scripts\activate
-streamlit run streamlit_app/Home.py
+python -m streamlit run streamlit_app/Home.py

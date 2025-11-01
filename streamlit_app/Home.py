@@ -101,7 +101,7 @@ with c2:
     q = st.text_input("Buscar productos…", label_visibility="collapsed", key="q")
 with c3:
     if st.button("🛒 Carrito"):
-        st.switch_page("pages/4_🛒_Mi_Carrito.py")
+        st.switch_page("pages/4Mi_Carrito.py")
 st.markdown('</div>', unsafe_allow_html=True)
 
 # =========================
@@ -174,4 +174,4 @@ else:
                 with cta[1]:
                     if st.button("🔎 Ver detalle", key=f"det_{row.get('id', i)}"):
                         st.session_state["last_product"] = int(row.get("id", i))
-                        st.switch_page("pages/3_🧥_Producto.py")
+                        st.switch_page("pages/3Producto.py")
